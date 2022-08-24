@@ -1,0 +1,171 @@
+@import "./reset.css";
+
+
+.container {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+}
+
+.mainPage {
+    min-height: 628px;
+    background-image: url("/assets/mainPage.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.header_item_left {
+    display: flex;
+    align-items: center;
+}
+
+
+.header {
+    max-width: 100%;
+    height: 63px;
+}
+.text_main {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+.mainPage_items {
+    padding: 100px 400px;
+}
+
+.card_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 650px;
+}
+.card {
+    background-color: #EAECEE;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.card_content {
+    margin: 15px 30px 15px 30px;
+}
+.orv {
+    padding-bottom: 20px;
+} 
+
+
+.quest_block{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.r {
+    margin-right: 50px;
+}
+
+ 
+.qus{font-family: 'Avenir Next Cyr';
+font-style: normal;
+font-weight: 450;
+font-size: 25px;
+line-height: 31px;
+margin-top: 25px;
+color: #878B92;}
+
+h2{
+    font-family: 'Avenir Next Cyr';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+
+color: #333333;
+}
+
+.contain{
+    margin: auto;
+    display: flex;
+    padding-top: 60px;
+}
+
+.valid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    margin-top: 15px;
+    border: 1px solid #EAECEE;
+    border-radius: 6px;
+    width: 540px;
+    height: 50px;
+}
+
+::placeholder {
+    font-size: 15px;
+    padding: 15px;
+    margin: 15px;
+}
+
+button {
+    width: 540px;
+    height: 50px;
+    background: #FFDD2D;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+a {
+    color: #FFDD2D;
+    display: flex;
+    justify-content: center;
+}
+
+h6 {
+    font-family: 'Avenir Next Cyr';
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.mmmm {
+    display: flex;
+    justify-content: center;
+}
+
+.container_reklama {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.kkk{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+.footer_item_right{
+    display: flex;
+    flex-direction: column;
+    
+}
